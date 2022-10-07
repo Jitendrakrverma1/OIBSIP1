@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Verma Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/51bb41bf40.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Aj.jpeg" class="logo">
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick ="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Development and Designing Intern at Oasis Infobyte</p>
+                <h1>Hi, I'm <span>Jitendra</span><br>Verma</h1>
+            </div>
+        </div>
+<!--------about----------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/bg3.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I am a quick learner willing to learn and explore more and more fields of Computer Science. Currently I am in Third Year of Computer Engineering, with highly skilled in programming languages like Python, Java and C. I was the group leader in various collaborative programming competitions. Passionate about coding and ability to perform in a team and want to grow up my skills in technical as well as Non-technical domain.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>HTML CSS & Javascript</li>
+                        <li><span>Backend Developer</span><br>PHP, Python & Excel</li>
+                        <li><span>Software Testing</span><br>Selenium Webdriver & Eclipse IDE</li>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Java Training</span><br> At Naresh i Technologies <br></li>
+                        <li><span>Advance Java Internship</span><br>At Naresh i Technologies</li>
+                        <li><span>C++ Internship</span><br>At Naresh i Technologies</li>
+                        <li><span>Oracle Database Internship</span><br>At Naresh i Technologies</li>
+                        <li><span>Web Developement & Designing Internship</span><br>Oasis Infobyte</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>High School</span><br>Chacha Nehru Inter College Sultanpur</li>
+                        <li><span>Inter-Mediate</span><br>Chacha Nehru Inter College Sultanpur</li>
+                        <li><span>College</span><br>Kamla Nehru Institute Of Technology Sultanpur</li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------Services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class = "sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am web developer and I am desgin HTml Css and JavaScript Project and I am also develop web design dummy project and making design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java Development</h2>
+                    <p>I am Java devloper and I am also learn Android and used this skill to enhance my knowledge for Game Development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Oracle Database</h2>
+                    <p>I am learn Oracle database and used this knowledge for maintaining background data of my application.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------Portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work1.jpeg" >
+                    <div class="layer">
+                        <h3>Java Development</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, id quas minima excepturi provident maxime quidem sed consequuntur nesciunt asperiores.</p>
+                        <a href="https://www.linkedin.com/in/jitendra-verma-0205a4224/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work2.jpeg" >
+                    <div class="layer">
+                        <h3>Android Game</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, id quas minima excepturi provident maxime quidem sed consequuntur nesciunt asperiores.</p>
+                        <a href="https://github.com/Jitendrakrverma1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work3.jpeg" >
+                    <div class="layer">
+                        <h3>Reading Book</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, id quas minima excepturi provident maxime quidem sed consequuntur nesciunt asperiores.</p>
+                        <a href="https://amanjaiswar28.github.io/lion-sclub.github.io/#Home"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+        </div>
+    </div>
+    <!---------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class = "sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> jitendrakrverma06@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8707585463</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jitendra-verma-0205a4224/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Jitendrakrverma1"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="" download class = "btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name ="Name" placeholder="Your Name" required>
+                        <input type="email" name ="Email" placeholder="Your Email" required>
+                        <textarea name ="Message" rows = "6" placeholder = "Your Message"></textarea> 
+                        <button type = "Submit" class = "btn btn2">Submit</button>
+                    </form>
+                    <span id = "msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2022 - All rights reserved</p>
+        </div>
+    </div>
+    <!-- <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby6xbuhY5FfnkToKR7ibf5TG_ESOa_kHI_dWicRC7z2SOjXwJlFqCZPmIWjDl5vHeFl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+
+                })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+
+    
+</body>
+</html>
